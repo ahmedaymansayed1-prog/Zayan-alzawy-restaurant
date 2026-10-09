@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>روست زيان الزاوي | مطعم ومشاوي</title>
+<meta name="description" content="روست زيان الزاوي - أكل طازج، مشاوي ومذاق مميز.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--gold:#d8a83e;--dark:#101010;--dark2:#181818;--cream:#fff7e7}
+body{font-family:Arial,Tahoma,sans-serif;background:var(--dark);color:#fff;line-height:1.7}
+a{text-decoration:none;color:inherit}
+.hero{min-height:92vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px 20px;background:radial-gradient(circle at top,#4a3517 0,#17130d 38%,#090909 75%)}
+.hero-inner{max-width:900px}
+.logo{width:105px;height:105px;border:2px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 22px;font-size:34px;font-weight:900;color:var(--gold);box-shadow:0 0 35px #d8a83e33}
+h1{font-size:clamp(42px,9vw,82px);letter-spacing:-2px;margin-bottom:8px}
+.tag{color:var(--gold);font-size:clamp(19px,4vw,27px);font-weight:bold;margin-bottom:20px}
+.hero p{max-width:650px;margin:0 auto 30px;color:#ddd;font-size:18px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{padding:13px 25px;border-radius:30px;border:1px solid var(--gold);font-weight:bold;transition:.2s}
+.btn.primary{background:var(--gold);color:#111}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+section{padding:70px 20px}
+.container{max-width:1100px;margin:auto}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:38px}
+.title span{color:var(--gold)}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:linear-gradient(145deg,#202020,#121212);border:1px solid #ffffff12;border-radius:18px;padding:24px;box-shadow:0 12px 35px #0005}
+.card h3{font-size:22px;margin-bottom:8px}
+.card p{color:#aaa;font-size:15px;margin-bottom:14px}
+.price{color:var(--gold);font-weight:900;font-size:21px}
+.about{background:#141414}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.feature{text-align:center;padding:25px;border-radius:18px;background:#1e1e1e}
+.icon{font-size:34px;margin-bottom:8px}
+.feature h3{margin-bottom:5px}
+.feature p{color:#aaa;font-size:14px}
+.contact{text-align:center}
+.contact-box{background:linear-gradient(135deg,#2a2113,#17130e);border:1px solid #d8a83e55;border-radius:22px;padding:35px}
+.contact-box p{color:#ddd;margin:8px 0 20px}
+footer{padding:25px;text-align:center;color:#888;background:#090909;border-top:1px solid #ffffff0d}
+footer b{color:var(--gold)}
+@media(max-width:600px){section{padding:52px 15px}.hero{min-height:88vh}.btn{width:100%;max-width:300px}.title h2{font-size:31px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="logo">ر ز</div>
+    <h1>روست زيان الزاوي</h1>
+    <div class="tag">طعم يستاهل التجربة 🔥</div>
+    <p>أهلاً بيك في روست زيان الزاوي — أكل طازج، مذاق مميز وتجربة معمولة بحب.</p>
+    <div class="btns">
+      <a class="btn primary" href="#menu">شوف المنيو</a>
+      <a class="btn" href="#contact">تواصل معنا</a>
+    </div>
+  </div>
+</header>
+
+<section id="menu">
+  <div class="container">
+    <div class="title">
+      <h2>من <span>المنيو</span></h2>
+      <p>اختيارات مميزة تقدر تعدّلها حسب منيو المطعم الحقيقي.</p>
+    </div>
+    <div class="menu">
+      <article class="card"><h3>وجبات المشاوي</h3><p>تشكيلة مشاوي متحضرة بعناية وتقدم ساخنة.</p><div class="price">السعر حسب المنيو</div></article>
+      <article class="card"><h3>وجبات الفراخ</h3><p>فراخ بطعم مميز مع الإضافات التي تحبها.</p><div class="price">السعر حسب المنيو</div></article>
+      <article class="card"><h3>السندوتشات</h3><p>اختيارات سريعة ولذيذة مناسبة لأي وقت.</p><div class="price">السعر حسب المنيو</div></article>
+      <article class="card"><h3>الإضافات</h3><p>إضافات وصوصات ومقبلات تكمل وجبتك.</p><div class="price">السعر حسب المنيو</div></article>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <div class="title"><h2>ليه <span>روست زيان الزاوي؟</span></h2></div>
+    <div class="features">
+      <div class="feature"><div class="icon">🔥</div><h3>طعم مميز</h3><p>وصفة وتجهيز يهتموا بالتفاصيل.</p></div>
+      <div class="feature"><div class="icon">🥩</div><h3>جودة</h3><p>اهتمام بالخامات والتقديم.</p></div>
+      <div class="feature"><div class="icon">⚡</div><h3>خدمة سريعة</h3><p>هدفنا إن طلبك يوصل لك بأفضل تجربة.</p></div>
+      <div class="feature"><div class="icon">❤️</div><h3>معمول بحب</h3><p>لأن الأكل الحلو يبدأ من الاهتمام.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="contact-box">
+      <div class="title"><h2>اطلب أو <span>تواصل معنا</span></h2></div>
+      <p>ضع هنا رقم الهاتف الحقيقي، واتساب، العنوان، ومواعيد العمل الخاصة بالمطعم.</p>
+      <div class="btns">
+        <a class="btn primary" href="tel:YOUR_PHONE">📞 اتصال</a>
+        <a class="btn" href="https://wa.me/YOUR_WHATSAPP" target="_blank">💬 واتساب</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 <b>روست زيان الزاوي</b> — جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
